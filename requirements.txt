@@ -6,3 +6,4 @@ pandas==1.2.3
 beautifulsoup4==4.9.3
 python_dateutil==2.8.1
 whois==0.9.8
+scikit-learn==0.24.1
