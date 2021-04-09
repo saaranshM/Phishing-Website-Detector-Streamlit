@@ -3,9 +3,8 @@ import utils
 import pickle
 import sys
 
-sys.path.append('../')
 
-model = pickle.load(open("../phishing_site_detector.sav", "rb"))
+model = pickle.load(open("phishing_site_detector.sav", "rb"))
 
 st.set_page_config(page_title="Phishing Website Detector")
 st.title("Phishing Website Detector")
